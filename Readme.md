@@ -2,39 +2,39 @@
 
 A desktop-only clone of the Cursor homepage built using pure HTML and CSS.
 
-This project focuses on accurately recreating the structure, layout, typography, and visual design of the original website without using JavaScript, TailwindCSS, responsiveness, or animations.
+This project focuses on recreating the structure, layout, typography, spacing, and color system of the original Cursor website without using JavaScript, TailwindCSS, responsiveness, or animations.
 
 ---
 
 ## 🚀 Project Overview
 
-This clone replicates the core sections of the Cursor homepage with close attention to:
+This clone replicates the major sections of the Cursor homepage while maintaining:
 
-- Layout structure
-- Typography
-- Color palette
-- Spacing system
-- Component styling
-- Visual hierarchy
+- Clean and structured layout
+- Accurate visual hierarchy
+- Consistent typography
+- Reusable color system
+- Component-based section design
 
-The project is built strictly for desktop view as per the given constraints.
+The implementation strictly follows the desktop-only constraint.
 
 ---
 
 ## 🧱 Sections Recreated
 
-The following sections from the original website were recreated:
+The following sections from the original Cursor website were recreated:
 
-1. **Sticky Header / Navigation Bar**
+1. **Sticky Navigation Bar**
    - Logo
-   - Navigation links (Product, Enterprise, Pricing, Resources)
+   - Navigation links
    - Sign In button
    - Download button
 
 2. **Hero Section**
    - Main headline
-   - Download CTA button
-   - Hero product image
+   - Supporting description
+   - Call-to-action button
+   - Product hero image
 
 3. **Trusted By Section**
    - Supporting text
@@ -44,29 +44,29 @@ The following sections from the original website were recreated:
    - Agent turns ideas into code
    - Magically accurate autocomplete
    - In every tool, at every step
-   - Alternating image/text layout
+   - Alternating image-text layout structure
 
 5. **Testimonials Section**
-   - Grid layout
    - Quote cards
-   - Author images and roles
+   - Author images
+   - Role and company details
+   - Grid-based layout
 
 6. **Stay on the Frontier Section**
-   - Three feature cards
+   - Feature highlight cards
    - Image-based content blocks
 
 7. **Changelog Section**
-   - Version badges
+   - Version labels
+   - Release titles
    - Release dates
-   - Update titles
 
 8. **Research Section**
-   - Split layout
-   - Image + text panel
+   - Split layout (Image + Text)
 
 9. **Recent Highlights Section**
-   - Blog-style cards
-   - Metadata
+   - Blog-style preview cards
+   - Metadata and titles
    - View more link
 
 10. **Call-To-Action Section**
@@ -75,8 +75,8 @@ The following sections from the original website were recreated:
 
 11. **Footer**
     - Multi-column layout
-    - Product / Resources / Company / Legal / Connect
-    - Bottom bar with theme toggle and language selector
+    - Product / Resources / Company / Legal / Connect sections
+    - Bottom bar with language selector and theme toggle
 
 ---
 
@@ -93,19 +93,21 @@ Loaded locally using `@font-face`:
 - CursorGothic-BoldItalic
 
 Font fallback stack:
+
 ```css
 CursorGothic, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+```
 
 ---
 
 ## 🎨 Color Palette
 
-The project uses CSS variables for consistent theming and better maintainability.
+The project uses CSS custom properties (`:root`) to maintain consistency across the design.
 
 ### Background Colors
 - **Main Background:** `#13120A`
-- **Section Cards:** `#18160d`
-- **Alternate Section Background:** `#1B1912`
+- **Section Card Background:** `#18160d`
+- **Alternate Background:** `#1B1912`
 - **Highlight Cards:** `#201E18`
 
 ### Text Colors
@@ -118,9 +120,9 @@ The project uses CSS variables for consistent theming and better maintainability
 ### Button Colors
 - **Primary Button Background:** `#EDECEC`
 - **Primary Button Text:** `#0d0d0d`
-- **Button Hover State:** `#d7d5d5`
+- **Button Hover:** `#d7d5d5`
 
-All colors are defined using CSS custom properties (`:root`) to ensure consistency, scalability, and easier future updates.
+All colors are managed using CSS variables for scalability and maintainability.
 
 ---
 
@@ -142,8 +144,19 @@ All colors are defined using CSS custom properties (`:root`) to ensure consisten
 - No JavaScript
 - No TailwindCSS
 - No animations
-- Layout closely matches original design
 - Images and icons similar to original website
+- Focused on structural and visual accuracy
+
+---
+
+## 📂 Project Structure
+
+```
+├── index.html
+├── styles.css
+├── cursor-gothic.css
+└── assets/
+```
 
 ---
 
@@ -151,11 +164,11 @@ All colors are defined using CSS custom properties (`:root`) to ensure consisten
 
 Through this project:
 
-- Practiced recreating a production-level UI using only HTML & CSS
-- Improved understanding of CSS Grid and Flexbox layouts
-- Worked with custom fonts and CSS variables
-- Strengthened spacing, alignment, and visual hierarchy skills
-- Gained experience building structured landing pages
+- Strengthened CSS layout fundamentals (Grid & Flexbox)
+- Practiced recreating a production-level SaaS landing page
+- Improved understanding of spacing, alignment, and hierarchy
+- Implemented a structured design system using CSS variables
+- Learned professional UI section structuring
 
 ---
 
@@ -163,3 +176,10 @@ Through this project:
 
 This project is created strictly for educational purposes.  
 All design credits belong to the original Cursor website.
+
+---
+
+## 👨‍💻 Author
+
+Your Name  
+GitHub: https://github.com/your-username
