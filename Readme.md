@@ -149,17 +149,6 @@ All colors are managed using CSS variables for scalability and maintainability.
 
 ---
 
-## 📂 Project Structure
-
-```
-├── index.html
-├── styles.css
-├── cursor-gothic.css
-└── assets/
-```
-
----
-
 ## 🎯 Learning Outcomes
 
 Through this project:
@@ -176,10 +165,3 @@ Through this project:
 
 This project is created strictly for educational purposes.  
 All design credits belong to the original Cursor website.
-
----
-
-## 👨‍💻 Author
-
-Your Name  
-GitHub: https://github.com/your-username
